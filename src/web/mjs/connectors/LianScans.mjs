@@ -8,7 +8,7 @@ export default class LianScans extends WordPressMangastream {
         super.label = 'LIAN';
         this.tags = [ 'manga', 'indonesian', 'scanlation' ];
         this.url = 'https://www.lianscans.my.id';
-        this.path = '/manga/';
+        this.path = '/manga/list-mode/';
 
         this.queryMangas = 'div.listupd div.bs div.bsx > a';
         this.queryChapters = 'div.eplister div.chbox div.eph-num a';
